@@ -7,6 +7,10 @@ function deEuroAdolar(euro) {
   // 1 ---> 1.20
   // 0 ---> 0
   // Tu código:
+
+  let tipoDeCambio = 1.20
+  return tipoDeCambio * euro  
+
 }
 
 module.exports = deEuroAdolar;
